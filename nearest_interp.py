@@ -23,7 +23,7 @@ def function(image,aim_height,aim_weight):
             x = int(i/sh + 0.5)
             y = int(j/sw + 0.5)
             zero_image[i,j] = image[x,y]
-            # print(i,j,x,y)
+            print(i,j,x,y)
 
     return zero_image
 
